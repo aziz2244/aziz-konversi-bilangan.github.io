@@ -17,7 +17,6 @@ function hitung() {
         hasilDesimal = document.querySelector('.hasil-desimal');
 
     if (pilih.value == '2') {
-        if (input.value >= 2) showError('Hanya nilai 0 & 1');
         if (input.value == '') showError('Nilai Yang anda input Invalid!!');
         else {
             function BinerToDesimal(bilBiner) {
